@@ -44,34 +44,44 @@ Start:
 	switch (WindowsKey) 
 	{
 		case 1: 
-			WindowsKeyChoice = Home; WindowsName = "Home"; 
+			WindowsKeyChoice = Home; 
+			WindowsName = "Home"; 
 			break;
 		case 2: 
-			WindowsKeyChoice = HomeN; WindowsName = "Home N"; 
+			WindowsKeyChoice = HomeN; 
+			WindowsName = "Home N"; 
 			break;
 		case 3: 
-			WindowsKeyChoice = HomeSL; WindowsName = "Home SL"; 
+			WindowsKeyChoice = HomeSL; 
+			WindowsName = "Home SL"; 
 			break;
 		case 4: 
-			WindowsKeyChoice = HomeCS; WindowsName = "Home CS"; 
+			WindowsKeyChoice = HomeCS; 
+			WindowsName = "Home CS"; 
 			break;
 		case 5: 
-			WindowsKeyChoice = Pro; WindowsName = "Pro"; 
+			WindowsKeyChoice = Pro; 
+			WindowsName = "Pro"; 
 			break;
 		case 6: 
-			WindowsKeyChoice = ProN; WindowsName = "Pro N"; 
+			WindowsKeyChoice = ProN; 
+			WindowsName = "Pro N"; 
 			break;
 		case 7: 
-			WindowsKeyChoice = Edu; WindowsName = "Edu"; 
+			WindowsKeyChoice = Edu; 
+			WindowsName = "Edu"; 
 			break;
 		case 8: 
-			WindowsKeyChoice = EduN; WindowsName = "Edu N"; 
+			WindowsKeyChoice = EduN; 
+			WindowsName = "Edu N"; 
 			break;
 		case 9: 
-			WindowsKeyChoice = Ent; WindowsName = "Ent"; 
+			WindowsKeyChoice = Ent; 
+			WindowsName = "Ent"; 
 			break;
 		case 10: 
-			WindowsKeyChoice = EntN; WindowsName = "Ent N"; 
+			WindowsKeyChoice = EntN; 
+			WindowsName = "Ent N"; 
 			break;
 		default: 
 			exit(1); 
