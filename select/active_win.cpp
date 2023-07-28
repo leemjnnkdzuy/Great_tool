@@ -9,7 +9,7 @@ Start:
 	system("cls");
 
 
-	cout << "Choose your Windows 10 version:" << endl;
+	cout << "Chọn phiên bản Windows 10 bạn muốn kích hoạt : " << endl;
 	cout << "1.  Home" << endl;
 	cout << "2.  Home N" << endl;
 	cout << "3.  Home Single Language" << endl;

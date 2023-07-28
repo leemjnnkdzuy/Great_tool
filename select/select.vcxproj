@@ -24,6 +24,7 @@
     <ProjectGuid>{730aa83c-0082-4d1d-be8a-4f068e0fbb25}</ProjectGuid>
     <RootNamespace>select</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Geat_Tool</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -129,7 +130,7 @@
   <ItemGroup>
     <ClCompile Include="active_win.cpp" />
     <ClCompile Include="Console.cpp" />
-    <ClCompile Include="core.cpp" />
+    <ClCompile Include="Main.cpp" />
     <ClCompile Include="lib.cpp" />
     <ClCompile Include="select.cpp" />
   </ItemGroup>

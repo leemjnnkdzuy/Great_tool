@@ -15,9 +15,15 @@ void Menu()
 
 void Get_Answer(int &option_select)
 {
-	cout << "Lựa chọn chức năng : ";
-	cin >> option_select;
-    Sleep(1000);
+	do
+	{
+		clrscr();
+		Menu();
+		cout << "Lựa chọn chức năng : ";
+		cin >> option_select;
+	} while (option_select < 0 || option_select > 5);
+
+	Sleep(1000);
 
     switch (option_select) 
     {
