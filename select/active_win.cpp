@@ -73,7 +73,9 @@ Start:
 		case 10: 
 			WindowsKeyChoice = EntN; WindowsName = "Ent N"; 
 			break;
-		default: exit(1); break;
+		default: 
+			exit(1); 
+			break;
 	}
 
 	

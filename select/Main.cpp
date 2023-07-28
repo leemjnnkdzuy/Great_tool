@@ -13,7 +13,6 @@ int main()
 
 		Get_Answer(option_select);
 
-
 		system("pause");
 	}
 
