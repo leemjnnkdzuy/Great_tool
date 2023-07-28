@@ -130,6 +130,7 @@
   <ItemGroup>
     <ClCompile Include="active_win.cpp" />
     <ClCompile Include="Console.cpp" />
+    <ClCompile Include="install_spotyX.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="lib.cpp" />
     <ClCompile Include="select.cpp" />
@@ -137,6 +138,7 @@
   <ItemGroup>
     <ClInclude Include="active_win.h" />
     <ClInclude Include="Console.h" />
+    <ClInclude Include="install_spotyX.h" />
     <ClInclude Include="lib.h" />
     <ClInclude Include="select.h" />
   </ItemGroup>
