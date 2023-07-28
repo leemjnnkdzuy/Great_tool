@@ -8,7 +8,7 @@ void Menu()
 	cout << "----------------------------------XIN CHÀO----------------------------------" << endl;
 	cout << "----------------------------Tool by LeeMjnnkDzuy----------------------------" << endl;
 	cout << "1. Active Windows                                                           " << endl;
-	cout << "2.                                                                          " << endl;
+	cout << "2. install_SpotyX                                                           " << endl;
 	cout << "3.                                                                          " << endl;
 	cout << "4.                                                                          " << endl;
 }
@@ -32,7 +32,7 @@ void Get_Answer(int &option_select)
         break;
 
     case 2:
-        ///
+		Install_Spotify();
         break;
 
     case 3:

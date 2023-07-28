@@ -1,6 +1,5 @@
 #include "lib.h"
 
-
 #pragma comment(lib, "Wininet.lib")
 
 void Install_Spotify() 
